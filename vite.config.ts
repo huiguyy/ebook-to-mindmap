@@ -61,7 +61,7 @@ export default defineConfig({
         plugins: ['babel-plugin-react-compiler'],
       },
     }),
-    tailwindcss({ oxide: false }),
+    tailwindcss(),
     corsProxyPlugin(),
     wasm(),
   ],
